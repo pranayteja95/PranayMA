@@ -58,6 +58,6 @@ def process_directory(directory_path):
 if __name__ == "__main__":
     create_database()
     
-    dicom_directory = "C:\\Users\\prana\\Desktop\\archive"
+    dicom_directory = "C:\\Users\\prana\\Desktop\\archive"    #enter the dicom dataset directory here.
     
     process_directory(dicom_directory)
